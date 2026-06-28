@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Bicycle Regulator/Rectifier</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<button onclick="window.location.href='index.html'">
+ Home
+</button>
+<body>
+<div class="desktop">
+	</div>
+	
+	<div class="disclaimer" style="top:300px; left:600px; z-index:4;">
+    <div class="disclaimer-bar">Disclaimer</div>
+    <div class="content">
+		<p>This page is under development. This project is ongoing and<br>
+			the displayed information is incomplete and not up to date.
+		</p>
+		 </div>	
+	</div>
+	<div class="window" style="top:40px; left:60px; z-index:1;width:1000px">
+    <div class="title-bar">Background</div>
+    <div class="content">
+		<p> <h1> The Background</h1>
+		
+		 During my work at Kellermann Lighting GmbH &amp; Co. KG, I got my hands on some samples of the <a href="https://www.kellermann-online.com/atto-wl/154.200" > Atto WL</a> and <a href="https://www.kellermann-online.com/atto-rb-integral/158.500"> Atto Integral RB</a> position and rear lights with deviating driver boards.<br>
+The Atto series are exceptionally small lights that complain and exceed with German road legality standards. Their unmatched size makes them an ideal candidate for seamless integration onto a bicycle.<br>
+The current smallest bicycle (rear) light is the <a href="https://bumm.de/de/produktdetail/my-plus/" target="_blank"> Busch &amp; Müller [my:] </a>, which still exceeds the Atto models in size.
+		</p>
+<p>With the Atto being made for DC motorcycle circuits, they are not simply to be connected to the dynamo hub. This sparked the idea of a small AC-DC system for bicyles.</p>
+		
+		<h2> The ideas kept coming</h2>
+		<p>
+		 Extending the "simple" idea of a AC-DC converter, some more attributes got into my head. <br>
+During long distance off grid bicycle touring, power management can be an issue. With the accessibility of hub dynamos this issue could be resolved.<br>
+	The average dynamo hub outputs 3 Watts at 6 Volt AC. 	<br><br>
+
+	
+		<img src="assets/images/Bicycle Reg Rec/SP Diagram.png" alt="Diagram of Hub Dynamo Voltage" attributionsrc="https://www.sp-dynamo.com/image/product/9/info.png?ver=20250319" width="300px"></p>
+		<p> 
+There are several examples of AC-DC convertors already available. Some examples are the
+ <a href="https://www.forumslader.de/news" target="_blank"> Forumslader </a> , the 
+		 <a href="https://www.cycle2charge.de/index.php/en/" target="_blank"> Cycle2Charge </a> , or the 
+<a href="https://www.sinewavecycles.com/collections/chargers/products/sinewave-cycles-reactor" target="_blank"> Sinewave Reactor </a>. Yet, those only output 5V to charge a phone or similar device.<br>
+Some even contain buffer batteries and some are more integrated into the bicycle than others. Furthermore in my ideology, bicycles are not a luxury good. I do understand the costs of R&amp;D, quality control, supply networks and such, but I think that a more affordable solution can be done. 
+	  </p>
+		<p> <h2>The Goals</h2>
+		The aim of this project ist to produce a system that integrates well into the bicycle. This system has to check the following boxes:<br>
+<ul>Buffer battery</ul>
+		<ul>5V output to charge devices </ul>
+		<ul>  	&gt;6V output for DC lights</ul>
+		<ul> A toggle to switch between operation modes</ul>
+		<ul> Affordability for the average student</ul>
+		<ul> Ease of installation</ul>
+		</p>
+		
+		
+	  </div>
+  </div>
+
+<div class="window" style="top:40px; left:1100px; z-index:2;width:1000px">
+    <div class="title-bar">Development</div>
+    <div class="content">
+		<p> <h1> Development</h1>
+		A prototype version consisting of a simple cicruit of a diode rectifier and capacitors is currently mounted to a bicycle with a Shutter Precision PD-8 dynamo hub.<br>
+The prototype supplies sufficient Watts to power two Kellermann Atto on each end of the bicycle.  
+		</p>
+		
+	  </div>
+  </div>
+</body>
+	<script src="script.js"></script>
+</html>
